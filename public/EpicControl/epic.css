@@ -1,0 +1,162 @@
+a {
+  cursor: pointer;
+}
+hr { 
+  height: 21px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+  margin:0;
+} 
+hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+.header, .people {
+  text-align: center;
+}
+
+.sideNav {
+  background: black;
+  width: 50px;
+  height: 100%;
+}
+
+.leftNavBtn {
+  display: none;
+}
+
+.leftNavBtn ~ label {
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  cursor:pointer;
+  width: 100%;  
+  border-radius: 3px;
+  padding: 10px 20px 10px 10px;
+  color: black;
+  line-height:20px;
+  font-size:12px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  transition:all 300ms ease;
+  color: #555;
+  background-color:#EAEAE2; #e7e7e7;
+}
+
+.leftNavBtn:checked ~ .navContainer {
+  margin-left: 500px;
+}
+
+.leftNavBtn + label:hover {
+    background-color: #e7e7e7;
+    border-color: #dbdbdb;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.navContainer {
+  position: absolute;
+  left: -500px;
+  top: 0px;
+  width: 500px;
+  height: 100%;
+  transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  z-index : 100;
+}
+
+.navContainer > .well {
+  height:100%;
+  overflow-y: auto;
+}
+
+.navContainer h3 {
+  font-weight: bold;
+}
+
+.leftNavClose {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.branchInfo {
+  margin : 0px 0px 0px 20px;
+}
+
+.topNav {
+  margin-left: 5%;
+  margin-right: 5px;
+}
+
+.body {
+  margin-left: 5%;
+  margin-right: 5px;
+}
+
+.body .row {
+  margin : 0;
+}
+
+.body .well {
+  margin : 5px;
+}
+
+.edit, .editEpic {
+  margin-left: -5px;
+  padding-right: 3px;
+  cursor: pointer;
+}
+
+.branchHeader {
+  font-weight : bold;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  margin: 5px;
+}
+
+.right {
+  float: right;
+  margin: 5px;
+}
+
+#editNewBranch, #editNewEpic {
+  display: none;
+}
+
+#leftNav {
+  height:100% !important;
+  width: 4% !important;
+  background-image: linear-gradient(to right,#fff 0,#f8f8f8 100%);
+}
+
+#newBranchBtn + label:after {
+  content:"New Branch" 
+}
+
+#newEpicBtn + label:after {
+  content:"New Epic" 
+}
+
+#newEpicPeople {
+  margin: 0px 0px 10px;
+}
+
+#newEpicPeople label {
+  font-weight: normal;
+  display: inline;
+}
+    

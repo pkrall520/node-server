@@ -1,0 +1,201 @@
+<head>
+
+<script type="text/javascript" src="https://code.angularjs.org/1.2.16/angular.js"></script>
+<script src='/lib/socket.io-1.4.5.js'></script>
+<script src='./config.js'></script>
+<script src='./app.js'></script>
+
+<!-- Bootstrap Core CSS -->
+<link href="./BootStrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- MetisMenu CSS -->
+<link href="./BootStrap/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="./BootStrap/dist/css/sb-admin-2.css" rel="stylesheet">
+
+<!-- Morris Charts CSS -->
+<link href="./BootStrap/vendor/morrisjs/morris.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="./BootStrap/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="./app.css" rel="stylesheet" type="text/css">
+
+      </head>
+ <body id="ng-app" ng-app="app">
+
+    <div id="wrapper" ng-controller="DashboardCtrl">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">PNC App Server Dash</a>
+            </div>
+            <!-- /.navbar-header -->
+
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-envira fa-fw"></i>QA Environments
+                            <span class="pull-right">
+                                <a class="qaEnv" aria-expanded="true" data-toggle="collapse" href="#qaEnv">
+                                    <i class="fa fa-arrow-circle-right fa-fw"></i>
+                                    <i class="fa fa-arrow-circle-down fa-fw"></i>
+                                </a>
+                            </span>
+                            <div class="form-group">
+                                <input class="pull-right" ng-model="filterQA" />
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+
+                        <div id="qaEnv" class="panel-body collapse in" style="margin-left: 50px;">
+
+
+                    <div class=" col-xs-5 card panel panel-primary" ng-class="{'panel-red' : deploy.isDeploying, 'panel-yellow' : deploy.warn}" ng-repeat="deploy in ( deploys | filter:{name : filterQA} ) track by $index ">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{{deploy.name}}</div>
+                                    <div ng-if="deploy.isDeploying">Deploying...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="envDetails" aria-expanded="false" data-toggle="collapse" href="#envInfo-{{$index}}" ng-if="deploy.appServers">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                    <i class="fa fa-arrow-circle-down"></i>
+                                </span>
+                                <div class="clearfix"></div>
+                                <div id="envInfo-{{$index}}" class="collapse panel-footer envTable">
+                                    <div >
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <th>Name</th>
+                                            <th class="icon">Sign On?</th>
+                                            <th class="icon">Responsive?</th>
+                                            <tr ng-repeat="server in deploy.appServers">
+                                                <td class=""><a href="{{server.URL}}" target="_blank">{{server.name}}</a></td>
+                                                <td class="icon">
+                                                    <i class="fa fa-check-circle green" aria-hidden="true" ng-if="server.hasSignOnPage" ></i>
+                                                    <i class="fa fa-times-circle red" ng-if="!server.hasSignOnPage" aria-hidden="true"></i>
+                                                </td>
+                                                <td class="icon">
+                                                    <i class="fa fa-check-circle green" aria-hidden="true" ng-if="server.status != 404" ></i>
+                                                    <i class="fa fa-times-circle red" title="{{server.status}}" ng-if="server.status == 404" aria-hidden="true"></i>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    </div></div>
+
+
+                </div>
+                
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <!-- /.col-lg-8 -->
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Jenkins Repos
+                            <span class="pull-right">
+                                <a class="jenkinRepos" aria-expanded="true" data-toggle="collapse" href="#jenkinRepos">
+                                    <i class="fa fa-arrow-circle-right fa-fw"></i>
+                                    <i class="fa fa-arrow-circle-down fa-fw"></i>
+                                </a>
+                            </span>
+                            <div class="form-group">
+                                <input class="pull-right" ng-model="filterRepos" />
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+
+						<div id="jenkinRepos" class="panel-body collapse in">
+							<div class="list-group" >
+								<div  class="list-group-item hoverRow" ng-repeat="job in ( jenkins | filter:{name:filterRepos} ) track by $index" data-toggle="collapse" href="#jenkinInfo-{{$index}}"  aria-expanded="false">
+									<a class="noUnderline" >
+										<i class="fa fa-comment fa-fw"></i> {{job.name}}
+
+										<span class="pull-right text-muted small" ng-if=" (job.wbb_app_building || job.wbb_lib_building || job.wbb_ws_building)">
+											<i class="fa fa-spinner" aria-hidden="true"></i>
+										</span>
+									</a>
+									<div class="nav nav-second-level collapse" id="jenkinInfo-{{$index}}">
+											<div ng-if="job.hasOwnProperty('wbb_app_building')">
+												<span class="pull-left text-muted small thirtyleftPd">Wbb-App</span>
+												<span class="pull-right text-muted small" ng-if="job.wbb_app_building">Deploying...</span>
+												<span class="pull-right text-muted small" ng-if="!job.wbb_app_building">Compiled!</span>
+											</div>
+
+											<div ng-if="job.hasOwnProperty('wbb_lib_building')">
+												<br>
+												<span class="pull-left text-muted small thirtyleftPd">Wbb-Lib</span>
+												<span class="pull-right text-muted small" ng-if="job.wbb_lib_building">Deploying...</span>
+												<span class="pull-right text-muted small" ng-if="!job.wbb_lib_building">Compiled!</span>
+											</div>
+											<div ng-if="job.hasOwnProperty('wbb_ws_building')">
+												<br>
+												<span class="pull-left text-muted small thirtyleftPd">Wbb-Ws</span>
+												<span class="pull-right text-muted small" ng-if="job.wbb_ws_building">Deploying...</span>
+												<span class="pull-right text-muted small" ng-if="!job.wbb_ws_building">Compiled!</span>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <!-- /.panel-body -->
+                    </div>
+                   
+                       
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./BootStrap/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./BootStrap/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="./BootStrap/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="./BootStrap/vendor/raphael/raphael.min.js"></script><!-- 
+    <script src="./BootStrap/vendor/morrisjs/morris.min.js"></script>
+    <script src="./BootStrap/data/morris-data.js"></script> -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./BootStrap/dist/js/sb-admin-2.js"></script>
+
+</body>

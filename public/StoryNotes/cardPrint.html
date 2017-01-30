@@ -1,0 +1,20 @@
+<div class="printControls btn-group" role="group">
+    <input type="button" class="btn btn-secondary" value="Back" ng-click="back()">
+    <select name="sizeSelect" id="sizeSelect" class="btn sizeDD"
+            ng-options="option.name for option in data.sizes track by option.id"
+            ng-model="data.selectedSize"></select>
+    <input type="button" class="btn btn-secondary" value="{{templateSwitch}}" ng-click="showTemplate()">
+    <input type="button" class="btn btn-secondary" value="Print" ng-click="print()">
+</div>
+<div class="cardPrintContainer">
+    <div ng-repeat="x in cardList track by $index" class="cardDefault" ng-class="{leftCard: $index % 2 == 0, rightCard: $index % 2 != 0,
+                                                                                    centerCard: data.selectedSize.id == 1,
+                                                                                    template: templateSwitch == 'Hide Template'}">
+        <div class="card">
+            <div class="cardNumber">{{ x.number }}</div>
+            <div class="cardEpic">{{ x.epic }}</div>
+            <div class="cardName">{{ x.name }}</div>
+            <div class="cardPoints">{{ x.points }}</div>
+        </div>
+    </div>
+</div>

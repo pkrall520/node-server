@@ -1,0 +1,942 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getMonth"
+			],
+			[
+				"ne",
+				"next_deploy"
+			],
+			[
+				"ep",
+				"epic_date"
+			],
+			[
+				"epi",
+				"epic_date"
+			],
+			[
+				"user",
+				"userGroups"
+			],
+			[
+				"init",
+				"initData"
+			],
+			[
+				"ini",
+				"initData"
+			],
+			[
+				"tra",
+				"track_name"
+			],
+			[
+				"opt",
+				"opts"
+			],
+			[
+				"person",
+				"personIndex"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"prefe",
+				"preferences-template"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"C",
+				"CTRL"
+			],
+			[
+				"ser",
+				"serverName"
+			],
+			[
+				"en",
+				"env2"
+			],
+			[
+				"env",
+				"env1"
+			],
+			[
+				"table",
+				"tableRows"
+			],
+			[
+				"server",
+				"servers"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"pro",
+				"processing"
+			],
+			[
+				"serv",
+				"servers"
+			],
+			[
+				"pa",
+				"passwordReset"
+			],
+			[
+				"pin",
+				"pinrEndPoint"
+			],
+			[
+				"acc",
+				"accountNumber"
+			],
+			[
+				"m",
+				"multiFieldError"
+			],
+			[
+				"em",
+				"emptyError"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"log",
+				"loginError"
+			],
+			[
+				"sele",
+				"selectedSession"
+			],
+			[
+				"l",
+				"location"
+			],
+			[
+				"ses",
+				"sessions"
+			],
+			[
+				"main",
+				"MainFrameService"
+			],
+			[
+				"file",
+				"fileExtnNotChecked"
+			],
+			[
+				"in",
+				"invalidDate"
+			],
+			[
+				"type",
+				"typeNames"
+			],
+			[
+				"cu",
+				"current"
+			],
+			[
+				"typ",
+				"typeNames"
+			],
+			[
+				"accoun",
+				"accountObj"
+			],
+			[
+				"pen",
+				"penConfig"
+			],
+			[
+				"numberOft",
+				"numberOfTotalTransactions"
+			],
+			[
+				"chec",
+				"checkedFileType"
+			],
+			[
+				"use",
+				"useCurrentView"
+			],
+			[
+				"de",
+				"deposit"
+			],
+			[
+				"req",
+				"reqParams"
+			],
+			[
+				"cur",
+				"currentRequest"
+			],
+			[
+				"ajax",
+				"ajaxParams"
+			],
+			[
+				"data",
+				"dataSrcUrl"
+			],
+			[
+				"aja",
+				"ajaxParams"
+			],
+			[
+				"ex",
+				"extn"
+			],
+			[
+				"FILE",
+				"FILE_TYPES"
+			],
+			[
+				"QU",
+				"QUICKEN"
+			],
+			[
+				"QUI",
+				"QUICKBOOKS"
+			],
+			[
+				"re",
+				"reqParams"
+			],
+			[
+				"_e",
+				"_evalExportButton"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"cl",
+				"closest"
+			],
+			[
+				"number",
+				"numberOfTransactions"
+			],
+			[
+				"Trans",
+				"transactions"
+			],
+			[
+				"num",
+				"numberOfPages"
+			],
+			[
+				"upp",
+				"uppperExtream"
+			],
+			[
+				"pr",
+				"printerFriendly"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"account",
+				"accountData"
+			],
+			[
+				"page",
+				"pageNumber"
+			],
+			[
+				"numb",
+				"numberOfPages"
+			],
+			[
+				"sor",
+				"sortBy"
+			],
+			[
+				"_setDe",
+				"_setDetailBySearch"
+			],
+			[
+				"_setD",
+				"_setDetailByType"
+			],
+			[
+				"_set",
+				"_setDetailByDate"
+			],
+			[
+				"sort",
+				"sortOrder"
+			],
+			[
+				"da",
+				"dateRange"
+			],
+			[
+				"curr",
+				"currentTrans"
+			],
+			[
+				"_",
+				"_slideOpen"
+			],
+			[
+				"_sli",
+				"_slideDown"
+			],
+			[
+				"pri",
+				"privileges"
+			],
+			[
+				"po",
+				"postedData"
+			],
+			[
+				"dataSrc",
+				"dataSrcUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/EpicControl/client.js",
+			"settings":
+			{
+				"buffer_size": 4278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/EpicControl/index.html",
+			"settings":
+			{
+				"buffer_size": 7072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "controller/EpicControlController.js",
+			"settings":
+			{
+				"buffer_size": 1438,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"csett",
+				"Preferences: Settings - Default"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML (Tcl)"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/pp84703/Desktop/node server/node-server.sublime-project",
+		"/C/Users/pp84703/dev/tools/sublime text/Data/Settings/Session.sublime_session",
+		"/C/Users/pp84703/Desktop/Epic Control/public/EpicControl/index.html",
+		"/C/Users/pp84703/Desktop/Epic Control/app.js",
+		"/C/Users/pp84703/Desktop/Epic Control/controller/EpicControlController.js",
+		"/C/Users/pp84703/Desktop/node server/public/StoryNotes/index.html",
+		"/C/Users/pp84703/Desktop/node server/public/EpicControl/index.html",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/alerts/cardAlerts.jsp",
+		"/C/Users/pp84703/Desktop/Epic Control/server.js",
+		"/C/Users/pp84703/Desktop/Epic Control/routes/index.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/intermodals/cardMaint/activateCreditCard.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/marketing/client/bean/AdobeDTMPageData.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/marketing/client/util/AdobeDtmTagLoadUtil.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/DebitCardActivationModal.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/intermodals/Alerts/CardAlerts/editAlert.jsp",
+		"/C/Users/pp84703/Desktop/Epic Control/public/StoryNotes/index.html",
+		"/C/Users/pp84703/Desktop/Epic Control/public/StoryNotes/cardPrint.html",
+		"/C/Users/pp84703/Desktop/Epic Control/public/StoryNotes/script.js",
+		"/C/Users/pp84703/Desktop/Epic Control/config/index.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/JavaScriptLib/PNC Modules/PNC/Modules/core/PNCCore.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/servlet/VisaAlertProfileDeleteInitServlet.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/bean/VisaAlertProfileDeleteInitPageBean.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/js/PNCDocumentCenter.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/cardMaint.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/servlet/VisaAlertProfileDeleteInitServlet.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/alerts/cardAlerts_AddEdit.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/documentCenter.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless2/RCB_wbb/AccountLinkWebApp/src/main/webapp/intermodals/Alerts/CardAlerts/deleteAlert.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/alerts/cardAlerts.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/intermodals/Alerts/CardAlerts/deleteAlert.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/js/PNCDocumentCenter.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/documentCenter.jsp",
+		"/C/Users/pp84703/Desktop/Paperless Changes/DocumentCenterPageBean.java",
+		"/C/Users/pp84703/Desktop/Paperless Changes/DocumentCenterServlet.java",
+		"/C/Users/pp84703/Desktop/Paperless Changes/AccountSwitcherOptionGroup.java",
+		"/C/Users/pp84703/Desktop/Paperless Changes/DocumentCenterController.java",
+		"/C/Users/pp84703/Desktop/Epic Control/public/client.js",
+		"/C/Users/pp84703/Desktop/Epic Control/public/index.html",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/mock/DebitCardActivation-mock.json",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/bpquickswitch/bpSwitchRedirect.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarEnrollment.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/documentCenterModal.html",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarMaintenance.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarMobileNumbers.jspf",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarEnrollment.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarMaintenance.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/ssar/ssarMobileNumbers.jspf",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/savingsLiquidity/js/savingsLiquidity.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/savingsLiquidity/js/pageObjects/UpgradeYourAccount.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/alerts/cardAlerts.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/intermodals/ssar/ssarEnrollmentDialog.jsp",
+		"/C/Users/pp84703/Desktop/PageBlocking_0416_LS.xml",
+		"/C/Users/pp84703/Desktop/20160423_ProdBackup.xml",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/documentCenter.jsp",
+		"/C/Users/pp84703/Desktop/CustInfoUpdateRequest.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_Maven/RCB_wbb/EcommerceJavaApp/src/main/java/com/pnc/ecommerce/custInfo/server/service/CustInfoUpdateRequest.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/DocumentCenter/PNCDocumentCenter.css",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/alerts/cardAlerts_AddEdit.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/0dbf63a35f194ed19c79d1e5f20a03f1_tmp_15332.jsp",
+		"/C/Users/pp84703/Desktop/MaskingData.aspx.xml",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/CoBrowse/coBrowse.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/CoBrowse/coBrowse.jspf",
+		"/C/Users/pp84703/Desktop/overdraftSolutions.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/cardMaint.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/44aaac72667e4f54a31d9a7678532789_tmp_8188.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/debitCard/44aaac72667e4f54a31d9a7678532789_tmp_12604.jsp",
+		"/C/Users/pp84703/Desktop/CoBrowse/coBrowse.js",
+		"/C/Users/pp84703/Desktop/CoBrowse/coBrowse.jspf",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkWebApp/src/main/webapp/JavaScriptLib/PNC Modules/PNC/Modules/core/PNCCore.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee/RCB_wbb/AccountLinkWebApp/src/main/webapp/CoBrowse/coBrowse.jspf",
+		"/C/Users/pp84703/Desktop/test.json",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/documentcenter/client/controller/DocumentCenterController.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_paperless/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/documentcenter/client/servlet/DocumentCenterServlet.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkJavaApp/JavaSource/com/pnc/accountLink/debitCard/client/bean/CardMaintPageBean.java",
+		"/C/Users/pp84703/Desktop/launcher.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/EcommerceJavaApp/JavaSource/com/pnc/ecommerce/domain/Account.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/EcommerceJavaApp/JavaSource/com/pnc/ecommerce/domain/DebitCardAccount.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/EcommerceJavaApp/JavaSource/com/pnc/ecommerce/wealth/service/albridge/domain/Account.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_maven/RCB_wbb/AccountLinkWebApp/src/main/webapp/statements/statementDailyBalance.jsp",
+		"//10.49.219.210/Users/PP84703/Desktop/pncTestCasesNG.xml",
+		"//10.49.219.210/Users/PP84703/Desktop/TestCases/PNCLogin.java",
+		"//10.49.219.210/Users/PP84703/Desktop/SeleniumApp/PNC TestCaseWeb/test-output/testng-failed.xml",
+		"/C/Users/pp84703/Desktop/seleniumTempate",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee/RCB_wbb/AccountLinkWebApp/WebContent/css2/common.css",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkProperties/saml.templates/DebitActivateCardEmail.template",
+		"//10.49.219.210/Users/PP84703/Desktop/eclipse-Luna/eclipse.ini",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkWebApp/WebContent/css2/common.css",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkWebApp/WebContent/debitCard/DebitCardActivationModal.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkJavaApp/JavaSource/com/pnc/accountLink/debitCard/client/controller/DebitCardActivationController.java",
+		"/C/Users/pp84703/dev/tools/keyboardBinder/keys.json",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkWebApp/WebContent/intermodals/cardMaint/activateCreditCard.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/EcommerceJavaApp/JavaSource/com/pnc/ecommerce/client/jsp/EcommerceFormat.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkJavaApp/JavaSource/com/pnc/accountLink/debitCard/client/controller/DebitCardMaintEmailController.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_Maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/bean/VisaAlertProfileDeleteInitPageBean.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_Maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/servlet/VisaAlertProfileDeleteInitServlet.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee/RCB_wbb/AccountLinkProperties/client/siteIntermodalContents.properties",
+		"/C/Users/pp84703/Desktop/VisaAlertProfileDeleteInitPageBean.java",
+		"/C/Users/pp84703/Desktop/VisaAlertProfileDeleteInitServlet.java",
+		"//10.49.219.210/Users/PP84703/Desktop/SeleniumApp/PNC TestCaseWeb/WebContent/pages/index.html",
+		"//10.49.219.210/Users/PP84703/dev/workspace/PNCStoryNotes/PNCStoryNotes/WebContent/pages/StoryNotes/index.html",
+		"//10.49.219.210/Users/PP84703/dev/workspace/PNCStoryNotes/PNCStoryNotes/WebContent/pages/StoryNotes/cardCreation.html",
+		"//10.49.219.210/Users/PP84703/dev/workspace/PNCStoryNotes/PNCStoryNotes/WebContent/pages/StoryNotes/cardPrint.html",
+		"//10.49.219.210/Users/PP84703/dev/workspace/PNCStoryNotes/PNCStoryNotes/WebContent/pages/StoryNotes/style.css",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/bean/VisaAlertProfileDeleteInitPageBean.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_April_Rel_maven/RCB_wbb/AccountLinkJavaApp/src/main/java/com/pnc/accountLink/visaalerts/client/servlet/VisaAlertProfileDeleteInitServlet.java",
+		"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee/RCB_wbb/AccountLinkWebApp/WebContent/intermodals/ssar/ssarEnrollmentDialog.jsp",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkJavaApp/JavaSource/com/pnc/accountLink/debitCard/client/controller/CardMaintController.java",
+		"//10.49.219.210/Users/PP84703/dev/workspace/PNCStoryNotes/PNCStoryNotes/WebContent/pages/StoryNotes/script.js",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkWebApp/WebContent/debitCard/mock/DebitCardActivation-mock.json",
+		"/C/Users/pp84703/Desktop/DebitCardActivationServlet.java",
+		"/C/Users/pp84703/dev/tools/GFB_Login.js",
+		"//10.49.219.210/Users/PP84703/Desktop/SeleniumApp/PNC TestCaseWeb/WebContent/pages/StoryNotes/index.html",
+		"/C/Users/pp84703/Desktop/StoryNotes/cardCreation.html",
+		"/C/Users/pp84703/Desktop/StoryNotes/cardPrint.html",
+		"/C/Users/pp84703/Desktop/StoryNotes/card.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1-welcome-template.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1-welcome-controller.js",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/wizardNavigation/wizardNavigation-directive.js",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/todo.todo",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1formpanels/form2.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1formpanels/form4.html",
+		"/C/Users/pp84703/dev/workspace/Views/2016.04_DebitCardActivation_NEW/RCB_wbb/AccountLinkJavaApp/JavaSource/com/pnc/accountLink/debitCard/client/servlet/DebitCardActivationServlet.java",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1-routes.js",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/config/route.js",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/wizardNavigation/wizardNavigation.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-loan1-welcome/loan1formpanels/form3.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-preferences/preferences-template.html",
+		"/C/Users/pp84703/dev/workspace/hackathon/teamhack10/teamhack10/app/components/state-preferences/preferences-controller.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\pp84703\\dev\\workspace\\Views\\2016.04_DebitCardActivation",
+			"C:\\Users\\pp84703\\dev\\workspace\\Views\\2016.04_layered_sec",
+			"C:\\Users\\pp84703\\dev\\workspace\\Projects\\2016.02_WBB_PROD_Fixes",
+			"C:\\Users\\pp84703\\dev\\workspace\\Projects\\2016.02_WBB_PROD_Fixe",
+			"C:\\Users\\pp84703\\Desktop\\WebSphereScripts\\WASv7.0",
+			"C:\\Users\\pp84703\\Desktop\\typescript-angular(for Philips)\\typescript-angular\\",
+			"C:\\Users\\pp84703\\Desktop\\typescript-angular(for Philips)\\typescript-angular\\app",
+			"C:\\Users\\xx62569\\dev\\workspace\\Projects\\2015.08_improveErrorMessages",
+			"C:\\Users\\xx62569\\dev\\workspace\\Views\\2015.08_improveErrorMessages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Epic Con",
+			"Epic Control",
+			"Epic",
+			"tempAge = ",
+			"Online Doc",
+			"DTM",
+			"paperlessAccountInfo",
+			"paperlessAccount",
+			"paperlessAccountInfo",
+			"Online Documents",
+			"online documents",
+			"overdra",
+			"online document",
+			"_validPINFormat",
+			"INVALID_FORMAT",
+			"new Deb",
+			"new De",
+			"showActivated",
+			"debitCardActivation",
+			"enrollmentChannel",
+			"procide your ",
+			"new De",
+			"Online Doc",
+			"Insufficient funds",
+			"new De",
+			"new Deb",
+			"ne",
+			"new ",
+			"new deb",
+			"inter",
+			"getSmartNotificationAccounts",
+			"dtm",
+			"_getParams",
+			"Online Do",
+			"LL_Deployment",
+			"v4CustomButtonID",
+			"\\",
+			"java",
+			"Online Documents",
+			"primaryContact",
+			"EMAIL_SUBJECT_DEBIT_ACTIVATE_SUCCESS",
+			"ERROR",
+			"SHOW",
+			"emulation",
+			"accountId",
+			"seleced",
+			"req",
+			"requ",
+			"Date",
+			"controller.te",
+			"Somethjing",
+			"ui-v",
+			"todo",
+			"LeftCol",
+			"src",
+			"app.css",
+			"iframe",
+			"href",
+			"body",
+			"href",
+			"src",
+			"/en",
+			"link",
+			"uploadFile",
+			"isOwnerOfSmartNotificationAccount",
+			"=\"./",
+			"Activate C",
+			"Activate card",
+			"HERE",
+			"DebitCardActi",
+			"Activate Card",
+			"debitCardAc",
+			"s :",
+			"DebitCardActivationModal",
+			"Activate Card",
+			"now using your debit card or phone number in a few short steps!",
+			" now using your debit card or phone number in a few short steps!",
+			">\n",
+			"pitts",
+			"c29",
+			"AccountLinkEnterpriseApp",
+			"&",
+			" AdminTask",
+			"createWMQConnectionFactory",
+			"createQueueConnectionFactory",
+			"acctLnk_StrongAuthRequestQueue",
+			"IsICBSupported ",
+			"_headers",
+			"WebSocket",
+			"Table Rows",
+			"ACLS Payoffs",
+			"Server Table Rows:",
+			"Request Returned",
+			"ACLS Payoffs",
+			"_host",
+			"lwbb237a",
+			"web",
+			"new",
+			"web",
+			"Web",
+			"web",
+			"}\n",
+			"spend.temp",
+			"login",
+			"logon",
+			"spendAppDataService",
+			"testing",
+			"MainFrameService",
+			"getFullSpendObject",
+			"pncSpendTotalsView",
+			"AppController",
+			"logonViewCtrl",
+			"logonView",
+			"login",
+			"logonViewCtrl",
+			"loginViewCtrl",
+			"pncSpendingTotalsView",
+			"spend.pncSpendingTotalsView",
+			"logonViewCtrl",
+			"pncSpendingTotalsViewCtrl",
+			"logonViewCtrl",
+			"pncSpendingTotalsViewCtrl",
+			"logon",
+			"burja",
+			"krall",
+			"phill",
+			"BeginGetCon",
+			"focus"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"return ",
+			"/",
+			"getData",
+			"self",
+			"_parent._getData",
+			"_parent.accountData",
+			"_parent.params",
+			"",
+			" )",
+			"( ",
+			"",
+			"currentTrans",
+			" )",
+			"( ",
+			",",
+			":",
+			"data",
+			"img",
+			"ul#social>li*4>a>img",
+			"lorem3",
+			"serif",
+			"padding"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/EpicControl/client.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2226,
+								2226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/EpicControl/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2324,
+								2324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 239.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controller/EpicControlController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.h",
+				"public/EpicControl/index.html"
+			],
+			[
+				"index.html",
+				"public/EpicControl/index.html"
+			],
+			[
+				"index",
+				"public/StoryNotes/index.html"
+			],
+			[
+				"cle",
+				"public/EpicControl/client.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/pp84703/dev/workspace/Views/2016.06_ForeSee_maven/RCB_wbb/AccountLinkWebApp/foreSeeMaven.sublime-project"
+			],
+			[
+				"node Ser",
+				"/C/Users/pp84703/Desktop/Epic Control/node-server.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

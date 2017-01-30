@@ -1,0 +1,90 @@
+
+<form novalidate name="cardForm" role="form" ng-submit="isEditing ? save() : addCard()">
+<div class="cardFirstContainer">
+    <div class="cardNew">
+            <div class="row">
+                <input type="number" my-focus class="cardNumberInput col-sm-4" ng-model="card.number" name="numberInput" id="numberInput" placeholder="Story Number" required>
+                <div class="cardNameInput col-sm-1"></div>
+                <input type="input" class="cardNameInput col-sm-7" ng-model="card.name" name="cardInput" placeholder="Story Name" required>
+            </div>
+            <div class="row" submitOnEnter>
+                <input type="number" class="form-controlInput col-sm-4" ng-model="card.points" name="pointInput" placeholder="Points" required>
+                <div class="cardNameInput col-sm-1"></div>
+                <input type="input" class="cardEpicInput col-sm-7" ng-model="card.epic" name="epicInput" placeholder="Epic" required>
+            </div>
+
+    </div>
+    <div class="cardControlsContainer btn-group-vertical">
+        <input type="button" class=" btn btn-primary bigBottomMargin" value="Print Template" ng-click="printTemplate()" >
+        <input type="button" class=" btn btn-primary" value="Import from Jira" data-toggle="modal" data-target="#myModal" >
+        
+    </div>
+    <div class="cardControlsContainer btn-group-vertical">
+        <input type="submit" class="btn addBtn" value="{{ addBtnText }}" ng-click="isEditing ? save() : addCard()" ng-disabled="cardForm.numberInput.$untouched ||
+                                                                          cardForm.numberInput.$invalid ||
+                                                                          cardForm.epicInput.$untouched ||
+                                                                          cardForm.epicInput.$invalid ||
+                                                                          cardForm.cardInput.$untouched ||
+                                                                          cardForm.cardInput.$invalid ||
+                                                                          cardForm.pointInput.$invalid">
+        <input type="button" class=" btn btn-primary" value="Finish" ng-click="finish()" ng-disabled="isEditing">
+    </div>
+</div>
+</form>
+
+<div ng-repeat="x in cardList track by $index" class="cardListed">
+    <div class="cardCreated" ng-class="{editOutline: isEditing && $index == index}">
+        <div class="cardNumber">{{ x.number }}</div>
+        <div class="cardEpic">{{ x.epic }}</div>
+        <div class="cardName">{{ x.name }}</div>
+        <div class="cardPoints">{{ x.points }}</div>
+    </div>
+    <div class="cardControls">
+        <input type="button" value="Delete" class="deleteBtn btn btn-danger" ng-click="delete( x, $index )" >
+        <input type="button" value="Edit" class="editBtn btn" ng-click="edit( x, $index )" >
+    </div>
+</div>
+
+<div class='loading' ng-show='loading'>
+<div class="sk-circle">
+  <div class="sk-circle1 sk-child"></div>
+  <div class="sk-circle2 sk-child"></div>
+  <div class="sk-circle3 sk-child"></div>
+  <div class="sk-circle4 sk-child"></div>
+  <div class="sk-circle5 sk-child"></div>
+  <div class="sk-circle6 sk-child"></div>
+  <div class="sk-circle7 sk-child"></div>
+  <div class="sk-circle8 sk-child"></div>
+  <div class="sk-circle9 sk-child"></div>
+  <div class="sk-circle10 sk-child"></div>
+  <div class="sk-circle11 sk-child"></div>
+  <div class="sk-circle12 sk-child"></div>
+</div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Import Stories from Jira</h4>
+      </div>
+      <div class="modal-body">
+        <p>User Name ( For Jira )</p>
+        <input type="text" class="form-control roundBorders" ng-model="import.user">
+        <p>Password</p>
+        <input type="password" class="form-control roundBorders" ng-model="import.pass" >
+        <p>Sprint</p>
+        <select class="form-control roundBorders" ng-options="sprint as sprint.name for sprint in sprints track by sprint.id" ng-model="import.sprint" >
+          
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary right" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" ng-disabled="!allowImport()" data-dismiss="modal" ng-click="makePostItsfromJira()" >Import</button>
+      </div>
+    </div>
+  </div>
+</div>

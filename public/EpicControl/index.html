@@ -1,0 +1,89 @@
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified CSS -->
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="/lib/moment.js"></script>
+      <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+      <script src='/lib/bootstrap-multiselect.js'></script>
+      <link rel="stylesheet" type="text/css" href="/lib/bootstrap-multiselect.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+      <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./epic.css">
+      <script src='/lib/socket.io-1.4.5.js'></script>
+      <script src='./config.js'></script>
+      <script src='./EpicControl.js'></script>
+      <script>
+      $(document).ready( function() {
+         new EpicControl();
+      });
+      </script>
+   </head>
+   <body>
+      <nav class="navbar navbar-default navbar-fixed-top" id='leftNav'>
+         <div>
+            <input type="checkbox" class='leftNavBtn' name='newBranchBtn' id='newBranchBtn' />
+            <label for="newBranchBtn" class=''></label>
+            <div class='navContainer'>
+               <div class='well'>
+                  <label for="newBranchBtn" class='leftNavClose'><span class='glyphicon glyphicon-remove-sign remove'></span></label>
+                  <h3>Create New Branch</h3>
+                   <div class="form-group">
+                       <p>Branch Name : </p>
+                        <input class="form-control roundBorders" id='branchName' type="text">
+                        <p>Enviroment : </p>
+                           <select class='form-control roundBorders dropdown' id='branchEnv'></select>
+                        <p>Branch Manager : </p>
+                           <input class="form-control roundBorders" id='branchManager' type="text">
+                       <p>Deploy Times : </p>
+                       <div class='input-group date datetimepicker' >
+                           <input type='text' class="form-control datetime" data-checkbox = 'dailyDeploy-0' />
+                           <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                           </span>
+                       </div>
+                       <input type='checkbox' id='dailyDeploy-0'/> <label for='dailyDeploy-0'>Daily Deploy Time</label>
+                       <div id='extraDateTime'></div><br><br>
+                       <a id='addDateTime'>+ Add Another Date/Time</a>
+                   </div>
+                   <button class='btn btn-default' id='addBranch'>Add</button>
+                   <div class='row' id='editNewBranch'>
+                  <button class='btn btn-default left' id='editBranch' >Save</button><button class='btn btn-default right' id='deleteBranch'>Delete</button>
+                   </div>
+               </div>
+            </div>
+         </div>
+         <div>
+            <input type="checkbox" class='leftNavBtn' name='newEpicBtn' id='newEpicBtn' />
+            <label for="newEpicBtn" class=''></label>
+            <div class='navContainer'>
+               <div class='well'>
+                  <label for="newEpicBtn" class='leftNavClose'><span class='glyphicon glyphicon-remove-sign remove'></span></label>
+                  <h3>Create New Epic</h3>
+                  <div class="form-group">
+                       <p>Epic Name : </p>
+                        <input class="form-control roundBorders" id='epicName' type="text">
+                        <p>Branch : </p>
+                           <select class='form-control roundBorders dropdown' id='epicBranch'></select>
+                        <p>People : </p>
+                        <div class='row' id='newEpicPeople'></div>
+                   </div>
+                   <button class='btn btn-default' id='addEpicBtn'>Add</button>
+                    <div class='row' id='editNewEpic'>
+                  <button class='btn btn-default left' id='editEpic' >Save</button><button class='btn btn-default right' id='deleteEpic'>Delete</button>
+                   </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <div class='well topNav'>
+      </div>
+      <div class='body'>
+      </div>
+   </body>
+</html>

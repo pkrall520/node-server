@@ -1,0 +1,84 @@
+.list-group-item {
+	cursor: pointer;
+}
+
+.noUnderline:hover {
+	text-decoration: none;
+}
+.hoverRow:hover a {
+	color : #23527c;
+}
+
+.thirtyleftPd {
+	padding-left: 30px;
+}
+
+.fa-spinner {
+    -webkit-animation: spin 4s infinite linear;
+    font-size:20;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+
+.red {
+    color : red;
+}
+
+.green {
+    color : green;
+}
+
+.card {
+	padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.envTable {
+    padding: 0;
+    padding-top: 10px;
+}
+
+.envTable .icon {
+    text-align: center;
+    vertical-align: middle;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+.envTable th, .envTable td {
+    font-size: 10px !important;
+    text-decoration: none !important;
+}
+
+.qaEnv i, .jenkinRepos i{
+    color: #333;
+    font-size: 20px;
+}
+
+.envDetails[aria-expanded="true"] .fa-arrow-circle-right, .envDetails[aria-expanded="false"] .fa-arrow-circle-down {
+    display : none;
+}
+
+.qaEnv[aria-expanded="true"] .fa-arrow-circle-right, .qaEnv[aria-expanded="false"] .fa-arrow-circle-down {
+    display : none;
+}
+
+.jenkinRepos[aria-expanded="true"] .fa-arrow-circle-right, .jenkinRepos[aria-expanded="false"] .fa-arrow-circle-down {
+    display : none;
+}
+
+.form-group {
+    display: inline;
+}
+
+.form-group input {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+    
