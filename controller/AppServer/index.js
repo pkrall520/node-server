@@ -88,14 +88,10 @@ module.exports = function( io, constants ) {
 			}
 		};
 
-	// updateWbbApp();
-	// updateWbbLib();
-	// updateWbbWs();
-	// updateDeploys();
+	updateWbbApp();
+	updateWbbLib();
+	updateWbbWs();
+	updateDeploys();
 };
 
 
-
-// Promise.all( [ jenkins.update_deploys() ] ).then( function( value ) {
-// 	console.log(jenkins.getDeploys());
-// });

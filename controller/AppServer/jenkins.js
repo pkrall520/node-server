@@ -4,7 +4,6 @@ appServerLib = new require('./appServer'),
 constants = require('../../const.json');
 
 module.exports = new function( ) {
-console.log(constants.JENKINS.user + ':' + constants.JENKINS.pass + '@')
 	var 
 		auth = constants.JENKINS.user + ':' + constants.JENKINS.pass + '@',
 		JENKINS = {
@@ -20,12 +19,14 @@ console.log(constants.JENKINS.user + ':' + constants.JENKINS.pass + '@')
 					job[fieldName] = job.builds.filter( build => build.building ).length > 0;
 				}
 				delete job.builds;
+				delete job._class;
 				return job;
 			});
 		},
 		extractJobs = ( response )=> {
 			body = JSON.parse( response.body );
-			let [, jobs] = Object.entries( body )[0];
+			let jobs;
+			jobs = body.jobs
 			return jobs;
 		},
 		merge = ( jobs1, jobs2 ) => {
